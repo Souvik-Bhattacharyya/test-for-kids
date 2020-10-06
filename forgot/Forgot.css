@@ -17,31 +17,42 @@ body
   width: 300px;
   height:400px;
   position: absolute;
+  border: 3px solid #2490A0;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   padding :60px 30px;
   box-sizing : border-box;
   box-shadow : 4px 8px 20px #000;
+  background: #000;
 }
 .login-box h1
 {
     font-weight : bold;
   font-size: 25px;
-    color : blue;
+    color : #fff;
     text-align : center;
-  margin-bottom : 8%;
-  margin-top : 0;
+  margin-bottom : 2%;
+  margin-top : 0%;
   padding: 18px 0;
     font-family : Courgette;
 }
 
+.login-box img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px); 
+}
 
 .textbox
 {
   width: 100%;
   overflow: hidden;
-  color: red;
+  color: #fff;
   font-size: 20px;
   padding: 8px 0;
   margin: 8px 0;
@@ -51,7 +62,7 @@ body
 
 .textbox i 
 {
-  color : #000;
+  color : #fff;
 }
 
 .textbox input
@@ -59,17 +70,17 @@ body
   border :none;
   outline: none;
   background:none; 
-  font-size: 22px;
+  font-size: 18px;
   width: 80%;
   margin: 0 10px;
 }
 
 .button1
 {
-  border-radius: 1px;
-  background: #4caf5f;
-  border: solid #4caf5f; 
-  color: black; 
+  border-radius: 5px;
+  background: none;
+  border: 1px solid #2490A0; 
+  color: #fff; 
   text-align: center;
   font-size: 14px;
   padding: 5px;
@@ -123,10 +134,10 @@ body
 }
 .button2
 {
-  border-radius: 1px;
-  background: #4caf5f;
-  border: solid #4caf5f; 
-  color: black; 
+  border-radius: 5px;
+  background: none;
+  border: 1px solid #2490A0; 
+  color: #fff; 
   text-align: center;
   font-size: 14px;
   padding: 5px;
