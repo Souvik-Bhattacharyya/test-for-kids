@@ -1,0 +1,131 @@
+body,html
+{
+height: 100%;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(Image/Bg4.jpg) no-repeat ; 
+  background-size: cover;
+  background-position: center;
+
+}
+.login-box
+{
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  border: 2px solid #4caf5f;
+  color : #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding :60px 30px;
+  box-sizing : border-box;
+  box-shadow : 4px 8px 20px #000;
+  background-color: rgba(0,0,0,0.2);
+}
+.login-box h1
+{
+  font-weight : bold;
+  font-size: 25px;
+  color : #fff;
+  text-align : center;
+  margin-bottom : 5%;
+  margin-top : 0;
+  padding: 13px 0;
+  font-family : Courgette;
+}
+
+
+.textbox
+{
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #4caf50;
+  float: right;
+}
+
+.textbox input
+{
+  border :none;
+  outline: none;
+  background:none; 
+  font-size: 22px;
+  width: 80%;
+  margin: 0 10px;
+}
+
+.button
+{
+  border-radius: 1px;
+  background: #4caf5f;
+  border: solid #4caf5f; 
+  color: black; 
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 12px 0;
+  font-family: sans-serif;
+}
+
+.button span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span 
+{
+  padding-right: 25px;
+}
+
+.button:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+.bottom-text{
+  color: red ;
+}
+.bottom-text input
+{
+  width: 10%;
+  float: left;
+
+}
+.bottom-text a
+{
+  float: right;
+  font-size: 12px;
+}
+
+.reg
+{
+  text-align: center;
+}
+.reg a
+{
+  font-size: 12px;
+}
