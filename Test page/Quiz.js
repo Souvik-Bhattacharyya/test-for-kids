@@ -73,7 +73,7 @@ let questions = [
 
   {
     id: 6,
-    question: "Correction K, I, L, J, M",
+    question: "Rearrange K, I, L, J, M",
     answer: "I, J, K, L, M",
     
     options: [
