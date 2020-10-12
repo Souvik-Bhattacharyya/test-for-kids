@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html
+{
+height: 100%;
+}
+body
+{
+  font-family: sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../Image/223.jpg);
+
+}
+.quiz
+{ background-color: rgba(0,0,0,0.9);
+  border-radius: 3px;
+  width: 300px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 50px auto;
+  position: absolute;
+  border: 1px solid;
+  color : #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-sizing : border-box;
+  box-shadow : 4px 8px 20px #000
+}
+
+.award_icon {
+  font-size: 150px;
+  left: 75px;
+  color: gold;
+}
+
+.user_name{
+    color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px
+}
+
+.user_points{
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+
+}
+
+.user_time {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.button
+{
+  border-radius: 5px;
+  background: #000;
+  border: 1px solid cyan; 
+  color: #fff; 
+  text-align: center;
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 12px 0;
+  font-family: sans-serif;
+}
+
+.button span 
+{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after 
+{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span 
+{
+  padding-right: 25px;
+}
+
+.button:hover span:after 
+{
+  opacity: 1;
+  right: 0;
+}
+.bottom-text{
+  color: #4caf5f;
+}
+.bottom-text input
+{
+  width: 10%;
+  float: left;
+
+}
+.bottom-text a
+{
+  float: right;
+  font-size: 12px;
+}
