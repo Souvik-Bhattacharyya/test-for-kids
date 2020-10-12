@@ -21,117 +21,117 @@ let questions = [
   
   {
     id: 2,
-    question: "What is the full form of CPU?",
-    answer: "Central Processing Unit",
+    question: "Which animal is called King of the jungle?",
+    answer: "Lion",
     
     options: [
-      "Central Program Unit",
-      "Central Processing Unit",
-      "Central Preload Unit",
-      "None of these"
+      "Lion",
+      "Tiger",
+      "Elephan",
+      "Deer"
     ]
   },
   
   {
     id: 3,
-    question: "What is the full form of E-mail",
-    answer: "Electronic Mail",
+    question: "What are the vowels of the English alphabet?",
+    answer: "A, E, I, O, U",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
+      "A, B, C, D, E",
+      "A, S, D, F, J",
+      "A, E, I, O, U",
       "None of these"
     ]
   },
 
   {
     id: 4,
-    question: "What is the full form of E-mail2",
-    answer: "Electronic Mail",
+    question: "What is the capital of India?",
+    answer: "New Delhi",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
+      "West Bengal",
+      "New Delhi",
+      "Mumbai",
       "None of these"
     ]
   },
 
   {
     id: 5,
-    question: "What is the full form of E-mail3",
-    answer: "Electronic Mail",
+    question: "The sun sets in the __________?",
+    answer: "West",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
-      "None of these"
+      "East",
+      "West",
+      "North",
+      "South"
     ]
   },
 
   {
     id: 6,
-    question: "What is the full form of E-mail4",
-    answer: "Electronic Mail",
+    question: "Correction K, I, L, J, M",
+    answer: "I, J, K, L, M",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
+      "I, M, K, L, J",
+      "L, I, M, J, K",
+      "I, J, K, L, M",
       "None of these"
     ]
   },
 
   {
     id: 7,
-    question: "What is the full form of E-mail4",
-    answer: "Electronic Mail",
+    question: "What are the colours of a rainbow?",
+    answer: "Red, Orange, Green, Blue, Yellow, Indigo, and Violet",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
+      "Red, Green, Orange, Blue, Indigo, Violet, and Yellow",
+      "Red, Orange, Green, Blue, Yellow, Indigo, and Violet",
+      "Red, Orange, Green, Blue, Violet, Indigo, and Yellow",
       "None of these"
     ]
   },
 
   {
     id: 8,
-    question: "What is the full form of E-mail4",
-    answer: "Electronic Mail",
+    question: "How many days do we have in a week?",
+    answer: "Seven",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
-      "None of these"
+      "Six",
+      "Seven",
+      "Eight",
+      "Five"
     ]
   },
 
   {
     id: 9,
-    question: "What is the full form of E-mail4",
-    answer: "Electronic Mail",
+    question: "How many letters are there in the English alphabet?",
+    answer: "26",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
-      "None of these"
+      "21",
+      "36",
+      "24",
+      "26"
     ]
   },
 
   {
     id: 10,
-    question: "What is the full form of E-mail4",
-    answer: "Electronic Mail",
+    question: "Which animal is known as the ‘Ship of the Desert?’",
+    answer: "Camel",
     
     options: [
-      "Electronic Mail",
-      "Electric Mail",
-      "Engine Mail",
+      "Camel",
+      "Deer",
+      "Sheep",
       "None of these"
     ]
   }
